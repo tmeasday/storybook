@@ -7,7 +7,7 @@
     "storybook": "dist/bin/storybook.js"
   },
   "scripts": {
-    "prepublish": ".scripts/npm-prepublish.sh",
+    "prepublish": "node ../../scripts/prepublish.js",
     "test": "echo \"Error: no test specified\" && exit 0",
     "postpublish": "greenkeeper-postpublish"
   },
