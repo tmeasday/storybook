@@ -71,7 +71,7 @@ function getData(element) {
     children: null,
   };
 
-  if (typeof element == 'string') {
+  if (typeof element === 'string') {
     data.text = element;
     return data;
   }

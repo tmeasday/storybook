@@ -293,8 +293,6 @@ export default class Story extends React.Component {
         {propTables}
       </div>
     );
-
-    return;
   }
 
   render() {
