@@ -8,6 +8,10 @@ import Button from './Button';
 import Welcome from './Welcome';
 import ComponentWithRef from './ComponentWithRef';
 
+if (window.foo !== 'bar') {
+  throw new Error('`head.html` was not included!');
+}
+
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Button', module)
