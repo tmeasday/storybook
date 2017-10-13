@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // Import styles.
 import '../css/main.css';
 import '../css/github.css';
+import './chromatic';
 
 const PageTemplate = ({ children }) => (
   <div>

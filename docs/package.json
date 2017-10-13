@@ -45,6 +45,7 @@
     "marked": "^0.3.6",
     "prop-types": "^15.6.0",
     "react": "^15.6.1",
+    "react-chromatic": "^0.5.10",
     "react-document-title": "^2.0.3",
     "react-dom": "^15.6.1",
     "react-helmet": "^5.0.3",
